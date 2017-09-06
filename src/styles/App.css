@@ -1,10 +1,17 @@
+/*.b {
+  border: 1px solid black;
+}*/
+
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px 1px;
-  /*background-color: white;*/
+  padding: 20px 10px;
+  background-color: #181818;
+  flex-wrap: wrap;
 }
+
+
 
 a {
   color: grey;
@@ -15,16 +22,35 @@ a:hover {
   opacity: .6;
 }
 
-a:after {
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#logo {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  color: white;
+  padding-right: 10px;
+}
+
+#contact {
+  display: flex;
+  direction: ltr;
+}
+
+.contact_main {
+  width: 80%;
 
 }
 
-h2 {
-
+.contact_side {
+  width: 20%;
 }
 
-link {
-
+.icons {
+  width: 30px;
 }
 
 .homeimg {
@@ -39,22 +65,13 @@ link {
   width: 80%;
 }
 
-/*.bgc {
-  background-color: red;
-}*/
-
-/*.baselayout {
-
+.link {
+  color: white;
+  align-self: flex-end;
+  font-family: 'Fira Mono', monospace;
+  padding: 10px 10px;
 }
 
-.home {
-
+.m {
+  margin: 0;
 }
-
-.about {
-
-}
-
-.portfolio {
-
-}*/
