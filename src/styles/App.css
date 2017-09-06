@@ -1,0 +1,60 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 1px;
+  /*background-color: white;*/
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+a:after {
+
+}
+
+h2 {
+
+}
+
+link {
+
+}
+
+.homeimg {
+  width: 500px;
+}
+
+.portfolioimg {
+  width: 100%;
+}
+
+.aboutmeimg {
+  width: 80%;
+}
+
+/*.bgc {
+  background-color: red;
+}*/
+
+/*.baselayout {
+
+}
+
+.home {
+
+}
+
+.about {
+
+}
+
+.portfolio {
+
+}*/
